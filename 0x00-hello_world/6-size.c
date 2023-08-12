@@ -3,6 +3,9 @@
 /**
  * main Entry point
  *
+ * Description: Prints the sizes of various data types
+ * on the computer it is compiled and run on
+ *
  * Return: Alwys 0 (success)
 */
 int main(void)
