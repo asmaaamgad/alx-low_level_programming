@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * mai - enter point
+ * main - Entry point of the program
  * Description : 'print alphapets lowercase
- * Retern: Always 0
+ * Return: Always 0
 */
 int main(void)
 {
