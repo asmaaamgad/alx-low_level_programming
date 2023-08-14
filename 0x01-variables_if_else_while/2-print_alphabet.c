@@ -5,7 +5,7 @@
  * Description : 'print alphapets lowercase
  * Retern: Always 0
 */
-int main (void)
+int main(void)
 {
 	int n = 97;
 
