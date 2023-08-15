@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * maain - entry point
+ * main - entry point
  * description: 'print _putchar followed by new line.'
  * Return: Always 0
 */
