@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
  * draws a diagonal line - print a diagonal line
