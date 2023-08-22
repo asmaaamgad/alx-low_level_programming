@@ -2,7 +2,7 @@
 
 /**
  * puts2 - print every other character of a string
- *
+ * main - entry point
  * @str: input string
  *
  * Return: nothing
@@ -20,11 +20,9 @@ void puts2(char *str)
 	putchar('\n');
 }
 
-int main(void)
+void main(void)
 {
 	char myString[] = "Hello, World!";
 
 	puts2(myString);
-
-	return (0);
 }
