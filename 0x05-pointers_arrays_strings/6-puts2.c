@@ -1,21 +1,30 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * puts2 - print evry character of a srtring
+ * puts2 - print every other character of a string
  *
- * @str: paramater input
+ * @str: input string
  *
  * Return: nothing
  */
 
 void puts2(char *str)
 {
-	int;
+	int i;
 
-	for (r = 0; str[i] != '\0'; ++i)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (i % 2 == 0)
-			putchar(str[i]);
+	if (i % 2 == 0)
+		putchar(str[i]);
 	}
 	putchar('\n');
+}
+
+int main(void)
+{
+	char myString[] = "Hello, World!";
+
+	puts2(myString);
+
+	return (0);
 }
